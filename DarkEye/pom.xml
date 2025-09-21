@@ -4,14 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codex.passwordmanager</groupId>
-    <artifactId>DarkEye</artifactId>
+    <groupId>com.sih</groupId>
+    <artifactId>logtool</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <name>DarkEye Log Detector System</name>
+    <description>Portable Offline Log Analysis Tool for Air-Gapped Security</description>
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <dependencies>
+        <!-- JavaFX for UI -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>21.0.0</version>
+        </dependency>
+        <!-- Add more dependencies as needed -->
+    </dependencies>
 </project>
